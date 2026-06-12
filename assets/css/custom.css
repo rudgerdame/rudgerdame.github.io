@@ -1,0 +1,117 @@
+/* Custom styles for rudgerdame.github.io */
+
+.logo-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+	margin: 1.5rem 0;
+}
+
+.logo-row img {
+	height: 120px;
+	width: auto;
+	max-width: 150px;
+	object-fit: contain;
+}
+
+.skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1.5rem 0;
+}
+
+.skill-tags li {
+	border: solid 1px rgba(255, 255, 255, 0.25);
+	border-radius: 4px;
+	padding: 0.35rem 0.75rem;
+	font-size: 0.85rem;
+	letter-spacing: 0.05rem;
+}
+
+.project {
+	margin-bottom: 2.5rem;
+	padding-bottom: 2rem;
+	border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.project:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.project-title {
+	color: #F4A460;
+	font-size: 1.1rem;
+	margin-bottom: 0.25rem;
+}
+
+.project-meta {
+	opacity: 0.65;
+	font-size: 0.85rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.contact-icons {
+	justify-content: center;
+	margin: 1.5rem 0;
+}
+
+/* Experience blocks */
+
+.exp-block {
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.exp-block:last-of-type {
+	border-bottom: none;
+}
+
+.exp-header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 0.75rem;
+}
+
+.exp-logo {
+	width: 56px;
+	height: 56px;
+	object-fit: cover;
+	border-radius: 6px;
+	flex-shrink: 0;
+}
+
+.exp-title {
+	font-size: 1rem;
+	margin: 0 0 0.15rem 0;
+	color: #ffffff;
+}
+
+.exp-meta {
+	font-size: 0.8rem;
+	opacity: 0.6;
+	text-transform: uppercase;
+	letter-spacing: 0.08rem;
+	margin: 0;
+}
+
+.exp-block ul {
+	margin: 0.5rem 0 0 1rem;
+	padding: 0;
+}
+
+.exp-block ul li {
+	margin-bottom: 0.4rem;
+	font-size: 0.9rem;
+	line-height: 1.6;
+}
